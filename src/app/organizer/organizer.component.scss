@@ -1,0 +1,32 @@
+section{
+    border: 1px solid #000;
+    padding: 1rem;
+    color: #fff;
+
+    header{
+        margin-bottom: 1rem;
+    }
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+
+    input{
+        height: 1rem;
+        margin-right: 25px;
+    }
+
+    button{
+        height: 38px;
+    }
+}
